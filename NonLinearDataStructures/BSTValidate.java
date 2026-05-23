@@ -1,0 +1,29 @@
+/**
+ * Problem ID: 77
+ * Topic: NonLinearDataStructures
+ * Problem Name: BSTValidate
+ * Difficulty: Medium
+ * Description: Validates if a given binary tree is a valid BST.
+ *
+ * Time Complexity: O(N)
+ * Space Complexity: O(H)
+ */
+public class BSTValidate {
+    static class TreeNode {
+        int val; TreeNode left, right;
+        TreeNode(int val) { this.val = val; }
+    }
+    public static boolean isValidBST(TreeNode root) {
+        return validate(root, null, null);
+    }
+    private static boolean validate(TreeNode node, Integer low, Integer high) {
+        if (node == null) return true;
+        if ((low != null && node.val <= low) || (high != null && node.val >= high)) return false;
+        return validate(node.left, low, node.val) && validate(node.right, node.val, high);
+    }
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(10);
+        root.left = new TreeNode(5); root.right = new TreeNode(15);
+        System.out.println("Valid BST: " + isValidBST(root));
+    }
+}

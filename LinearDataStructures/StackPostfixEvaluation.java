@@ -1,0 +1,35 @@
+/**
+ * Problem ID: 65
+ * Topic: LinearDataStructures
+ * Problem Name: StackPostfixEvaluation
+ * Difficulty: Medium
+ * Description: Evaluates a postfix mathematical expression using a Stack.
+ *
+ * Time Complexity: O(N)
+ * Space Complexity: O(N)
+ */
+import java.util.Stack;
+public class StackPostfixEvaluation {
+    public static int evaluatePostfix(String exp) {
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < exp.length(); i++) {
+            char c = exp.charAt(i);
+            if (Character.isDigit(c)) {
+                stack.push(c - '0');
+            } else {
+                int val1 = stack.pop();
+                int val2 = stack.pop();
+                switch (c) {
+                    case '+': stack.push(val2 + val1); break;
+                    case '-': stack.push(val2 - val1); break;
+                    case '*': stack.push(val2 * val1); break;
+                    case '/': stack.push(val2 / val1); break;
+                }
+            }
+        }
+        return stack.pop();
+    }
+    public static void main(String[] args) {
+        System.out.println("231*+9- = " + evaluatePostfix("231*+9-"));
+    }
+}

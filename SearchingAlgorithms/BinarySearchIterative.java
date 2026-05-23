@@ -1,0 +1,25 @@
+/**
+ * Problem ID: 132
+ * Topic: SearchingAlgorithms
+ * Problem Name: BinarySearchIterative
+ * Difficulty: Easy
+ * Description: Standard iterative binary search on sorted array.
+ *
+ * Time Complexity: O(log N)
+ * Space Complexity: O(1)
+ */
+public class BinarySearchIterative {
+    public static int search(int[] arr, int target) {
+        int l = 0, r = arr.length - 1;
+        while (l <= r) {
+            int m = l + (r - l) / 2;
+            if (arr[m] == target) return m;
+            if (arr[m] < target) l = m + 1;
+            else r = m - 1;
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+        System.out.println("Index: " + search(new int[]{1, 3, 5, 7, 9}, 7));
+    }
+}

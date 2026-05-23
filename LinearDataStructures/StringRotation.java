@@ -1,0 +1,18 @@
+/**
+ * Problem ID: 38
+ * Topic: LinearDataStructures
+ * Problem Name: StringRotation
+ * Difficulty: Easy
+ * Description: Checks if s2 is a rotation of s1.
+ *
+ * Time Complexity: O(N)
+ * Space Complexity: O(N)
+ */
+public class StringRotation {
+    public static boolean isRotation(String s1, String s2) {
+        return (s1.length() == s2.length()) && ((s1 + s1).contains(s2));
+    }
+    public static void main(String[] args) {
+        System.out.println("waterbottle vs erbottlewat: " + isRotation("waterbottle", "erbottlewat"));
+    }
+}

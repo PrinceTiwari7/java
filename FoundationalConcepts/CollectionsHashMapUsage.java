@@ -1,13 +1,3 @@
-/**
- * Problem ID: 20
- * Topic: FoundationalConcepts
- * Problem Name: CollectionsHashMapUsage
- * Difficulty: Easy
- * Description: Demonstrates HashMap operations including put, get, and keySet.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 import java.util.HashMap;
 public class CollectionsHashMapUsage {
     public static void main(String[] args) {

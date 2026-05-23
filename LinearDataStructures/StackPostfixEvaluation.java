@@ -1,13 +1,3 @@
-/**
- * Problem ID: 65
- * Topic: LinearDataStructures
- * Problem Name: StackPostfixEvaluation
- * Difficulty: Medium
- * Description: Evaluates a postfix mathematical expression using a Stack.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.Stack;
 public class StackPostfixEvaluation {
     public static int evaluatePostfix(String exp) {

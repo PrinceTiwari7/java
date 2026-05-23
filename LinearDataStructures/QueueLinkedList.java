@@ -1,13 +1,3 @@
-/**
- * Problem ID: 56
- * Topic: LinearDataStructures
- * Problem Name: QueueLinkedList
- * Difficulty: Easy
- * Description: Implements a FIFO queue using a Singly Linked List.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 public class QueueLinkedList {
     static class Node {
         int val; Node next;

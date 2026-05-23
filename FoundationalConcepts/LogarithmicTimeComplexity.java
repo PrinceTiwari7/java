@@ -1,13 +1,3 @@
-/**
- * Problem ID: 4
- * Topic: FoundationalConcepts
- * Problem Name: LogarithmicTimeComplexity
- * Difficulty: Easy
- * Description: Demonstrates O(log N) time complexity using binary search division.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(1)
- */
 public class LogarithmicTimeComplexity {
     public static int binarySearch(int[] arr, int target) {
         int left = 0, right = arr.length - 1;

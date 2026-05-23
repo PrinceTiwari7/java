@@ -1,13 +1,3 @@
-/**
- * Problem ID: 73
- * Topic: NonLinearDataStructures
- * Problem Name: BinaryTreeInvert
- * Difficulty: Easy
- * Description: Inverts a binary tree recursively (mirrors all left/right branches).
- *
- * Time Complexity: O(N)
- * Space Complexity: O(H)
- */
 public class BinaryTreeInvert {
     static class TreeNode {
         int val; TreeNode left, right;

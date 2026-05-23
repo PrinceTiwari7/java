@@ -1,13 +1,3 @@
-/**
- * Problem ID: 57
- * Topic: LinearDataStructures
- * Problem Name: QueueUsingStacks
- * Difficulty: Medium
- * Description: Implements a FIFO queue using two stacks.
- *
- * Time Complexity: Push: O(1), Pop: O(1) amortized
- * Space Complexity: O(N)
- */
 import java.util.Stack;
 public class QueueUsingStacks {
     private Stack<Integer> s1 = new Stack<>();

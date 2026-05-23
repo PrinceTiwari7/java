@@ -1,13 +1,3 @@
-/**
- * Problem ID: 133
- * Topic: SearchingAlgorithms
- * Problem Name: BinarySearchRecursive
- * Difficulty: Easy
- * Description: Recursive implementation of binary search.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(log N)
- */
 public class BinarySearchRecursive {
     public static int search(int[] arr, int l, int r, int target) {
         if (l <= r) {

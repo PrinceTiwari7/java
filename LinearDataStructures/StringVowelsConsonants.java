@@ -1,13 +1,3 @@
-/**
- * Problem ID: 40
- * Topic: LinearDataStructures
- * Problem Name: StringVowelsConsonants
- * Difficulty: Easy
- * Description: Counts the number of vowels and consonants in a string.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class StringVowelsConsonants {
     public static void count(String s) {
         int v = 0, c = 0;

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 150
- * Topic: AlgorithmDesignParadigms
- * Problem Name: DPLongestCommonSubsequence
- * Difficulty: Medium
- * Description: Finds length of LCS of two strings.
- *
- * Time Complexity: O(N * M)
- * Space Complexity: O(N * M)
- */
 public class DPLongestCommonSubsequence {
     public static int lcs(String s1, String s2) {
         int m = s1.length(), n = s2.length();

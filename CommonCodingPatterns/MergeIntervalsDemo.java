@@ -1,13 +1,3 @@
-/**
- * Problem ID: 219
- * Topic: CommonCodingPatterns
- * Problem Name: MergeIntervalsDemo
- * Difficulty: Medium
- * Description: Merges overlapping intervals in-place.
- *
- * Time Complexity: O(N log N)
- * Space Complexity: O(N)
- */
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;

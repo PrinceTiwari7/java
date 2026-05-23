@@ -1,13 +1,3 @@
-/**
- * Problem ID: 132
- * Topic: SearchingAlgorithms
- * Problem Name: BinarySearchIterative
- * Difficulty: Easy
- * Description: Standard iterative binary search on sorted array.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(1)
- */
 public class BinarySearchIterative {
     public static int search(int[] arr, int target) {
         int l = 0, r = arr.length - 1;

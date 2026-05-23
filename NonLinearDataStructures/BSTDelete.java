@@ -1,13 +1,3 @@
-/**
- * Problem ID: 76
- * Topic: NonLinearDataStructures
- * Problem Name: BSTDelete
- * Difficulty: Medium
- * Description: Deletes a node from a Binary Search Tree (BST) handling three cases.
- *
- * Time Complexity: O(H)
- * Space Complexity: O(H)
- */
 public class BSTDelete {
     static class TreeNode {
         int val; TreeNode left, right;

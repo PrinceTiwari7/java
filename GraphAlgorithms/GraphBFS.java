@@ -1,13 +1,3 @@
-/**
- * Problem ID: 181
- * Topic: GraphAlgorithms
- * Problem Name: GraphBFS
- * Difficulty: Easy
- * Description: Performs Breadth-First Search traversal on a graph.
- *
- * Time Complexity: O(V + E)
- * Space Complexity: O(V)
- */
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 47
- * Topic: LinearDataStructures
- * Problem Name: SinglyLinkedListMergeSorted
- * Difficulty: Easy
- * Description: Merges two sorted lists into one sorted list recursively.
- *
- * Time Complexity: O(N + M)
- * Space Complexity: O(N + M)
- */
 public class SinglyLinkedListMergeSorted {
     static class Node {
         int val; Node next;

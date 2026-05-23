@@ -1,13 +1,3 @@
-/**
- * Problem ID: 72
- * Topic: NonLinearDataStructures
- * Problem Name: BinaryTreeSymmetric
- * Difficulty: Easy
- * Description: Checks if a binary tree is symmetric (mirror image of itself).
- *
- * Time Complexity: O(N)
- * Space Complexity: O(H)
- */
 public class BinaryTreeSymmetric {
     static class TreeNode {
         int val; TreeNode left, right;

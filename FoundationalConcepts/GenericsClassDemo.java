@@ -1,13 +1,3 @@
-/**
- * Problem ID: 23
- * Topic: FoundationalConcepts
- * Problem Name: GenericsClassDemo
- * Difficulty: Easy
- * Description: Demonstrates a generic class that acts as a Box wrapper.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(1)
- */
 public class GenericsClassDemo {
     public static class Box<T> {
         private T content;

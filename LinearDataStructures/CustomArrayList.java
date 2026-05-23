@@ -1,13 +1,3 @@
-/**
- * Problem ID: 33
- * Topic: LinearDataStructures
- * Problem Name: CustomArrayList
- * Difficulty: Medium
- * Description: Custom implementation of a resizing dynamic array.
- *
- * Time Complexity: O(1) amortized
- * Space Complexity: O(N)
- */
 import java.util.Arrays;
 public class CustomArrayList {
     private Object[] data;

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 79
- * Topic: NonLinearDataStructures
- * Problem Name: AVLTreeDemo
- * Difficulty: Hard
- * Description: Implements insertion with left/right rotations in an AVL balanced BST.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(N)
- */
 public class AVLTreeDemo {
     static class Node {
         int val, height;

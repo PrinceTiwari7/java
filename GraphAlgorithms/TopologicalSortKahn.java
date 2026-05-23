@@ -1,13 +1,3 @@
-/**
- * Problem ID: 185
- * Topic: GraphAlgorithms
- * Problem Name: TopologicalSortKahn
- * Difficulty: Medium
- * Description: Kahn's BFS algorithm for Topological Sort on a DAG.
- *
- * Time Complexity: O(V + E)
- * Space Complexity: O(V)
- */
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;

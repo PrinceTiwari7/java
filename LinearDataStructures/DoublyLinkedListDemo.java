@@ -1,13 +1,3 @@
-/**
- * Problem ID: 49
- * Topic: LinearDataStructures
- * Problem Name: DoublyLinkedListDemo
- * Difficulty: Medium
- * Description: Implements insertion and backward traversal of Doubly Linked List.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 public class DoublyLinkedListDemo {
     static class DLLNode {
         int val; DLLNode prev, next;

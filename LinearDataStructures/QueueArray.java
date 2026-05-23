@@ -1,13 +1,3 @@
-/**
- * Problem ID: 55
- * Topic: LinearDataStructures
- * Problem Name: QueueArray
- * Difficulty: Easy
- * Description: Implements a FIFO queue using fixed-size arrays.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 public class QueueArray {
     private int[] arr;
     private int front, rear, size, capacity;

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 61
- * Topic: LinearDataStructures
- * Problem Name: ArrayIntersection
- * Difficulty: Easy
- * Description: Finds intersection of two arrays using a HashSet.
- *
- * Time Complexity: O(N+M)
- * Space Complexity: O(Min(N,M))
- */
 import java.util.HashSet;
 import java.util.ArrayList;
 public class ArrayIntersection {

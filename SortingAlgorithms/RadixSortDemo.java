@@ -1,13 +1,3 @@
-/**
- * Problem ID: 113
- * Topic: SortingAlgorithms
- * Problem Name: RadixSortDemo
- * Difficulty: Hard
- * Description: LSD Radix Sort for integers.
- *
- * Time Complexity: O(D * (N + B))
- * Space Complexity: O(N + B)
- */
 import java.util.Arrays;
 public class RadixSortDemo {
     public static void sort(int[] arr) {

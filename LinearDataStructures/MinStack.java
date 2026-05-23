@@ -1,13 +1,3 @@
-/**
- * Problem ID: 54
- * Topic: LinearDataStructures
- * Problem Name: MinStack
- * Difficulty: Medium
- * Description: Implements a stack that retrieves the minimum element in O(1) time.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 import java.util.Stack;
 public class MinStack {
     private Stack<Integer> stack = new Stack<>();

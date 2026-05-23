@@ -1,13 +1,3 @@
-/**
- * Problem ID: 60
- * Topic: LinearDataStructures
- * Problem Name: PriorityQueueMergeKSorted
- * Difficulty: Hard
- * Description: Merges K sorted lists using a PriorityQueue.
- *
- * Time Complexity: O(N log K)
- * Space Complexity: O(K)
- */
 import java.util.PriorityQueue;
 import java.util.List;
 import java.util.ArrayList;

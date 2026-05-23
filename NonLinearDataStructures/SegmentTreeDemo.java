@@ -1,13 +1,3 @@
-/**
- * Problem ID: 87
- * Topic: NonLinearDataStructures
- * Problem Name: SegmentTreeDemo
- * Difficulty: Hard
- * Description: Segment Tree for Range Sum Query and Point Update operations.
- *
- * Time Complexity: Build: O(N), Query/Update: O(log N)
- * Space Complexity: O(N)
- */
 public class SegmentTreeDemo {
     private int[] tree;
     private int n;

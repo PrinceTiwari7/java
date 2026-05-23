@@ -1,13 +1,3 @@
-/**
- * Problem ID: 75
- * Topic: NonLinearDataStructures
- * Problem Name: BSTSearch
- * Difficulty: Easy
- * Description: Searches for a key in a Binary Search Tree.
- *
- * Time Complexity: O(H)
- * Space Complexity: O(H)
- */
 public class BSTSearch {
     static class TreeNode {
         int val; TreeNode left, right;

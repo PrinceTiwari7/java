@@ -1,13 +1,3 @@
-/**
- * Problem ID: 53
- * Topic: LinearDataStructures
- * Problem Name: StackBalancedParentheses
- * Difficulty: Easy
- * Description: Validates parentheses matching using a Stack.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.Stack;
 public class StackBalancedParentheses {
     public static boolean isValid(String s) {

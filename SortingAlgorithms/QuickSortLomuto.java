@@ -1,13 +1,3 @@
-/**
- * Problem ID: 110
- * Topic: SortingAlgorithms
- * Problem Name: QuickSortLomuto
- * Difficulty: Medium
- * Description: Quick sort implementation using Lomuto's partitioning scheme.
- *
- * Time Complexity: O(N log N) average
- * Space Complexity: O(log N)
- */
 public class QuickSortLomuto {
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 46
- * Topic: LinearDataStructures
- * Problem Name: SinglyLinkedListMiddle
- * Difficulty: Easy
- * Description: Finds the middle node of a singly linked list.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class SinglyLinkedListMiddle {
     static class Node {
         int val; Node next;

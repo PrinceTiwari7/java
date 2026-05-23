@@ -1,13 +1,3 @@
-/**
- * Problem ID: 29
- * Topic: LinearDataStructures
- * Problem Name: ArrayFindMinMax
- * Difficulty: Easy
- * Description: Finds the minimum and maximum elements in an array.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class ArrayFindMinMax {
     public static void printMinMax(int[] arr) {
         if (arr == null || arr.length == 0) return;

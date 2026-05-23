@@ -1,13 +1,3 @@
-/**
- * Problem ID: 64
- * Topic: LinearDataStructures
- * Problem Name: LinkedListRemoveDuplicates
- * Difficulty: Easy
- * Description: Removes duplicate nodes from sorted linked list.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class LinkedListRemoveDuplicates {
     static class Node {
         int val; Node next;

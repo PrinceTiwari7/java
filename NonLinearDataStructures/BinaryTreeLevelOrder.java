@@ -1,13 +1,3 @@
-/**
- * Problem ID: 69
- * Topic: NonLinearDataStructures
- * Problem Name: BinaryTreeLevelOrder
- * Difficulty: Easy
- * Description: Performs level-order traversal on a binary tree using BFS.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.List;

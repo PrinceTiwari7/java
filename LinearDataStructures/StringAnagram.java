@@ -1,13 +1,3 @@
-/**
- * Problem ID: 39
- * Topic: LinearDataStructures
- * Problem Name: StringAnagram
- * Difficulty: Easy
- * Description: Checks if two strings are anagrams of each other.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class StringAnagram {
     public static boolean isAnagram(String s1, String s2) {
         if (s1.length() != s2.length()) return false;

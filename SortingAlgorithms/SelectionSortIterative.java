@@ -1,13 +1,3 @@
-/**
- * Problem ID: 107
- * Topic: SortingAlgorithms
- * Problem Name: SelectionSortIterative
- * Difficulty: Easy
- * Description: Sorts an array by repeatedly finding the minimum element.
- *
- * Time Complexity: O(N^2)
- * Space Complexity: O(1)
- */
 public class SelectionSortIterative {
     public static void selectionSort(int[] arr) {
         int n = arr.length;

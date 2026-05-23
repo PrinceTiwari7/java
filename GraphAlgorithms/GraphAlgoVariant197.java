@@ -1,13 +1,3 @@
-/**
- * Problem ID: 197
- * Topic: GraphAlgorithms
- * Problem Name: GraphAlgoVariant197
- * Difficulty: Medium
- * Description: Algorithmic graph solution check #12.
- *
- * Time Complexity: O(V+E)
- * Space Complexity: O(V)
- */
 import java.util.*;
 public class GraphAlgoVariant197 {
     public static boolean hasCycle(int V, List<List<Integer>> adj) {

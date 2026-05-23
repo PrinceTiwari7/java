@@ -1,13 +1,3 @@
-/**
- * Problem ID: 59
- * Topic: LinearDataStructures
- * Problem Name: CustomDeque
- * Difficulty: Medium
- * Description: Double ended queue custom implementation using Doubly Linked List.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 public class CustomDeque {
     static class Node {
         int val; Node prev, next;

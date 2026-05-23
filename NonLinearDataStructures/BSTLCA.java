@@ -1,13 +1,3 @@
-/**
- * Problem ID: 78
- * Topic: NonLinearDataStructures
- * Problem Name: BSTLCA
- * Difficulty: Easy
- * Description: Finds the Lowest Common Ancestor (LCA) of two nodes in a BST.
- *
- * Time Complexity: O(H)
- * Space Complexity: O(H)
- */
 public class BSTLCA {
     static class TreeNode {
         int val; TreeNode left, right;

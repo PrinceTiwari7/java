@@ -1,13 +1,3 @@
-/**
- * Problem ID: 14
- * Topic: FoundationalConcepts
- * Problem Name: BitSetBit
- * Difficulty: Easy
- * Description: Sets the bit at a specific position to 1.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(1)
- */
 public class BitSetBit {
     public static int setBit(int num, int pos) {
         return num | (1 << pos);

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 84
- * Topic: NonLinearDataStructures
- * Problem Name: TrieDemo
- * Difficulty: Medium
- * Description: Implements a Prefix Tree (Trie) supporting insert, search, and startsWith.
- *
- * Time Complexity: O(L) where L is length of word
- * Space Complexity: O(N * L)
- */
 public class TrieDemo {
     static class TrieNode {
         TrieNode[] children = new TrieNode[26];

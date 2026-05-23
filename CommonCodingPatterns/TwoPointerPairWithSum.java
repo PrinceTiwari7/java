@@ -1,13 +1,3 @@
-/**
- * Problem ID: 216
- * Topic: CommonCodingPatterns
- * Problem Name: TwoPointerPairWithSum
- * Difficulty: Easy
- * Description: Finds a pair with target sum in a sorted array.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class TwoPointerPairWithSum {
     public static int[] findPair(int[] arr, int target) {
         int l = 0, r = arr.length - 1;

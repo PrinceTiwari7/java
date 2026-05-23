@@ -1,13 +1,3 @@
-/**
- * Problem ID: 30
- * Topic: LinearDataStructures
- * Problem Name: ArrayRotate
- * Difficulty: Medium
- * Description: Rotates an array to the right by k steps in-place.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class ArrayRotate {
     public static void rotate(int[] nums, int k) {
         k %= nums.length;

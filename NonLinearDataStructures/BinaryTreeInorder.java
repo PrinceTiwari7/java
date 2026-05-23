@@ -1,13 +1,3 @@
-/**
- * Problem ID: 67
- * Topic: NonLinearDataStructures
- * Problem Name: BinaryTreeInorder
- * Difficulty: Easy
- * Description: Performs iterative inorder traversal on a binary tree.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.Stack;
 import java.util.List;
 import java.util.ArrayList;

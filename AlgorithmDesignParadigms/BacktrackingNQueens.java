@@ -1,13 +1,3 @@
-/**
- * Problem ID: 151
- * Topic: AlgorithmDesignParadigms
- * Problem Name: BacktrackingNQueens
- * Difficulty: Hard
- * Description: Solves the N-Queens problem using Backtracking.
- *
- * Time Complexity: O(N!)
- * Space Complexity: O(N^2)
- */
 import java.util.List;
 import java.util.ArrayList;
 public class BacktrackingNQueens {

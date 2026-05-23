@@ -1,13 +1,3 @@
-/**
- * Problem ID: 77
- * Topic: NonLinearDataStructures
- * Problem Name: BSTValidate
- * Difficulty: Medium
- * Description: Validates if a given binary tree is a valid BST.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(H)
- */
 public class BSTValidate {
     static class TreeNode {
         int val; TreeNode left, right;

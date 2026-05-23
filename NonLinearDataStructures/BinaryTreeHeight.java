@@ -1,13 +1,3 @@
-/**
- * Problem ID: 70
- * Topic: NonLinearDataStructures
- * Problem Name: BinaryTreeHeight
- * Difficulty: Easy
- * Description: Calculates the maximum height/depth of a binary tree.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(H)
- */
 public class BinaryTreeHeight {
     static class TreeNode {
         int val; TreeNode left, right;

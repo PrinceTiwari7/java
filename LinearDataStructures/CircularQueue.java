@@ -1,13 +1,3 @@
-/**
- * Problem ID: 58
- * Topic: LinearDataStructures
- * Problem Name: CircularQueue
- * Difficulty: Medium
- * Description: Circular Queue implementation using Array.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 public class CircularQueue {
     private int[] data;
     private int head, tail, size, capacity;

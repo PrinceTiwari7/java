@@ -1,13 +1,3 @@
-/**
- * Problem ID: 106
- * Topic: SortingAlgorithms
- * Problem Name: BubbleSortIterative
- * Difficulty: Easy
- * Description: Standard iterative bubble sort implementation.
- *
- * Time Complexity: O(N^2)
- * Space Complexity: O(1)
- */
 public class BubbleSortIterative {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;

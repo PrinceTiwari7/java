@@ -1,13 +1,3 @@
-/**
- * Problem ID: 112
- * Topic: SortingAlgorithms
- * Problem Name: CountingSortDemo
- * Difficulty: Medium
- * Description: Counting sort algorithm for keys in a small range.
- *
- * Time Complexity: O(N + K)
- * Space Complexity: O(N + K)
- */
 public class CountingSortDemo {
     public static void sort(int[] arr) {
         int n = arr.length;

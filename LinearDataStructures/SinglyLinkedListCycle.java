@@ -1,13 +1,3 @@
-/**
- * Problem ID: 45
- * Topic: LinearDataStructures
- * Problem Name: SinglyLinkedListCycle
- * Difficulty: Easy
- * Description: Checks if a Singly Linked List contains a cycle using Floyd's algorithm.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class SinglyLinkedListCycle {
     static class Node {
         int val; Node next;

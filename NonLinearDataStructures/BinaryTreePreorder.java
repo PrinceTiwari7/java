@@ -1,13 +1,3 @@
-/**
- * Problem ID: 66
- * Topic: NonLinearDataStructures
- * Problem Name: BinaryTreePreorder
- * Difficulty: Easy
- * Description: Performs iterative preorder traversal on a binary tree.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.Stack;
 import java.util.List;
 import java.util.ArrayList;

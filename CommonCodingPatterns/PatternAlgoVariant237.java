@@ -1,13 +1,3 @@
-/**
- * Problem ID: 237
- * Topic: CommonCodingPatterns
- * Problem Name: PatternAlgoVariant237
- * Difficulty: Medium
- * Description: Coding pattern verification check #17.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class PatternAlgoVariant237 {
     public static int[] twoSum(int[] arr, int target) {
         int l = 0, r = arr.length - 1;

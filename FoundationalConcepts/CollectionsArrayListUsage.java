@@ -1,13 +1,3 @@
-/**
- * Problem ID: 19
- * Topic: FoundationalConcepts
- * Problem Name: CollectionsArrayListUsage
- * Difficulty: Easy
- * Description: Demonstrates core methods of Java's ArrayList.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.ArrayList;
 public class CollectionsArrayListUsage {
     public static void main(String[] args) {

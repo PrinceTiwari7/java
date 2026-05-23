@@ -1,13 +1,3 @@
-/**
- * Problem ID: 134
- * Topic: SearchingAlgorithms
- * Problem Name: TernarySearchRecursive
- * Difficulty: Medium
- * Description: Recursive ternary search on a sorted array.
- *
- * Time Complexity: O(log3 N)
- * Space Complexity: O(log N)
- */
 public class TernarySearchRecursive {
     public static int search(int[] arr, int l, int r, int target) {
         if (r >= l) {

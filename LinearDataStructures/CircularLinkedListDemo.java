@@ -1,13 +1,3 @@
-/**
- * Problem ID: 50
- * Topic: LinearDataStructures
- * Problem Name: CircularLinkedListDemo
- * Difficulty: Medium
- * Description: Implements insertion and traversal in a Circular Linked List.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class CircularLinkedListDemo {
     static class Node {
         int val; Node next;

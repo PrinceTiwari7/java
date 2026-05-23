@@ -1,13 +1,3 @@
-/**
- * Problem ID: 152
- * Topic: AlgorithmDesignParadigms
- * Problem Name: GreedyFractionalKnapsack
- * Difficulty: Medium
- * Description: Solves the fractional knapsack problem greedily.
- *
- * Time Complexity: O(N log N)
- * Space Complexity: O(1)
- */
 import java.util.Arrays;
 public class GreedyFractionalKnapsack {
     static class Item {

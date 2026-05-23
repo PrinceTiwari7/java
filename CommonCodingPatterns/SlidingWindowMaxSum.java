@@ -1,13 +1,3 @@
-/**
- * Problem ID: 217
- * Topic: CommonCodingPatterns
- * Problem Name: SlidingWindowMaxSum
- * Difficulty: Easy
- * Description: Finds the maximum sum of a contiguous subarray of size K.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class SlidingWindowMaxSum {
     public static int getMaxSum(int[] arr, int k) {
         if (arr.length < k) return -1;

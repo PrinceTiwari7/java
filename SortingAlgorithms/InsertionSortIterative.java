@@ -1,13 +1,3 @@
-/**
- * Problem ID: 108
- * Topic: SortingAlgorithms
- * Problem Name: InsertionSortIterative
- * Difficulty: Easy
- * Description: Standard iterative insertion sort.
- *
- * Time Complexity: O(N^2)
- * Space Complexity: O(1)
- */
 public class InsertionSortIterative {
     public static void insertionSort(int[] arr) {
         int n = arr.length;

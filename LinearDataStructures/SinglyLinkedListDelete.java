@@ -1,13 +1,3 @@
-/**
- * Problem ID: 43
- * Topic: LinearDataStructures
- * Problem Name: SinglyLinkedListDelete
- * Difficulty: Easy
- * Description: Deletes head node or specific value in Singly Linked List.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class SinglyLinkedListDelete {
     static class Node {
         int val; Node next;

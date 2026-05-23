@@ -1,13 +1,3 @@
-/**
- * Problem ID: 88
- * Topic: NonLinearDataStructures
- * Problem Name: FenwickTreeDemo
- * Difficulty: Hard
- * Description: Fenwick Tree / Binary Indexed Tree (BIT) for prefix sum updates and queries.
- *
- * Time Complexity: Query/Update: O(log N)
- * Space Complexity: O(N)
- */
 public class FenwickTreeDemo {
     private int[] tree;
     public FenwickTreeDemo(int size) {

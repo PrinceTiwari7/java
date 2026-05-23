@@ -1,13 +1,3 @@
-/**
- * Problem ID: 37
- * Topic: LinearDataStructures
- * Problem Name: StringCompression
- * Difficulty: Medium
- * Description: Compresses a string by replacing repeating characters with count.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class StringCompression {
     public static String compress(String s) {
         StringBuilder sb = new StringBuilder();

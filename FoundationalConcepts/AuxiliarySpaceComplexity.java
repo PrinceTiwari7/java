@@ -1,13 +1,3 @@
-/**
- * Problem ID: 6
- * Topic: FoundationalConcepts
- * Problem Name: AuxiliarySpaceComplexity
- * Difficulty: Easy
- * Description: Demonstrates O(N) space complexity by allocating a duplicate array.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class AuxiliarySpaceComplexity {
     public static int[] duplicate(int[] arr) {
         int[] dup = new int[arr.length];

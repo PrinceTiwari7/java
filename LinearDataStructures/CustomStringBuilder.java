@@ -1,13 +1,3 @@
-/**
- * Problem ID: 41
- * Topic: LinearDataStructures
- * Problem Name: CustomStringBuilder
- * Difficulty: Medium
- * Description: Simple custom implementation of a StringBuilder buffer.
- *
- * Time Complexity: O(1) amortized
- * Space Complexity: O(N)
- */
 import java.util.Arrays;
 public class CustomStringBuilder {
     private char[] value;

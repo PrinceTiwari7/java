@@ -1,13 +1,3 @@
-/**
- * Problem ID: 161
- * Topic: AlgorithmDesignParadigms
- * Problem Name: ParadigmAlgoVariant161
- * Difficulty: Medium
- * Description: Algorithmic design paradigm check #9.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class ParadigmAlgoVariant161 {
     public static int fib(int n) {
         int[] dp = new int[n + 2];

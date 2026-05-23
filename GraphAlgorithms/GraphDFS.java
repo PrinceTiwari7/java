@@ -1,13 +1,3 @@
-/**
- * Problem ID: 182
- * Topic: GraphAlgorithms
- * Problem Name: GraphDFS
- * Difficulty: Easy
- * Description: Performs Depth-First Search traversal on a graph recursively.
- *
- * Time Complexity: O(V + E)
- * Space Complexity: O(V)
- */
 import java.util.List;
 import java.util.ArrayList;
 public class GraphDFS {

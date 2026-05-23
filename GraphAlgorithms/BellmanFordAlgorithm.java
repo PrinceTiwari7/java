@@ -1,13 +1,3 @@
-/**
- * Problem ID: 184
- * Topic: GraphAlgorithms
- * Problem Name: BellmanFordAlgorithm
- * Difficulty: Medium
- * Description: Shortest path algorithm supporting negative weights.
- *
- * Time Complexity: O(V * E)
- * Space Complexity: O(V)
- */
 import java.util.Arrays;
 public class BellmanFordAlgorithm {
     static class Edge {

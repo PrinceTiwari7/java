@@ -1,13 +1,3 @@
-/**
- * Problem ID: 178
- * Topic: AlgorithmDesignParadigms
- * Problem Name: ParadigmAlgoVariant178
- * Difficulty: Medium
- * Description: Algorithmic design paradigm check #26.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class ParadigmAlgoVariant178 {
     public static int fib(int n) {
         int[] dp = new int[n + 2];

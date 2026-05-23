@@ -1,13 +1,3 @@
-/**
- * Problem ID: 109
- * Topic: SortingAlgorithms
- * Problem Name: MergeSortTopDown
- * Difficulty: Medium
- * Description: Top-down divide-and-conquer merge sort algorithm.
- *
- * Time Complexity: O(N log N)
- * Space Complexity: O(N)
- */
 public class MergeSortTopDown {
     public static void sort(int[] arr, int l, int r) {
         if (l < r) {

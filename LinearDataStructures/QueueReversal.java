@@ -1,13 +1,3 @@
-/**
- * Problem ID: 62
- * Topic: LinearDataStructures
- * Problem Name: QueueReversal
- * Difficulty: Easy
- * Description: Reverses a Queue using a Stack helper.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Stack;

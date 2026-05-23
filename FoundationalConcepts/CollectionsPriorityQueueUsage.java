@@ -1,13 +1,3 @@
-/**
- * Problem ID: 22
- * Topic: FoundationalConcepts
- * Problem Name: CollectionsPriorityQueueUsage
- * Difficulty: Easy
- * Description: Demonstrates Min-Heap implementation using PriorityQueue.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(N)
- */
 import java.util.PriorityQueue;
 public class CollectionsPriorityQueueUsage {
     public static void main(String[] args) {

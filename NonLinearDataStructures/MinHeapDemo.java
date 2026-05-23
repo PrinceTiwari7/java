@@ -1,13 +1,3 @@
-/**
- * Problem ID: 80
- * Topic: NonLinearDataStructures
- * Problem Name: MinHeapDemo
- * Difficulty: Medium
- * Description: Implements insertion and extractMin in a Min-Heap binary array structure.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(N)
- */
 import java.util.Arrays;
 public class MinHeapDemo {
     private int[] heap = new int[10];

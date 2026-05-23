@@ -1,13 +1,3 @@
-/**
- * Problem ID: 51
- * Topic: LinearDataStructures
- * Problem Name: StackArray
- * Difficulty: Easy
- * Description: Implements a LIFO stack using fixed-size arrays.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 public class StackArray {
     private int[] arr;
     private int top;

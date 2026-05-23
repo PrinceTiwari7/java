@@ -1,13 +1,3 @@
-/**
- * Problem ID: 52
- * Topic: LinearDataStructures
- * Problem Name: StackLinkedList
- * Difficulty: Easy
- * Description: Implements a LIFO stack using a Singly Linked List.
- *
- * Time Complexity: O(1)
- * Space Complexity: O(N)
- */
 public class StackLinkedList {
     static class Node {
         int val; Node next;

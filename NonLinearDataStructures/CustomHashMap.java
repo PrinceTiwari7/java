@@ -1,13 +1,3 @@
-/**
- * Problem ID: 83
- * Topic: NonLinearDataStructures
- * Problem Name: CustomHashMap
- * Difficulty: Medium
- * Description: Implements a custom HashMap using bucket chaining and key/value pairs.
- *
- * Time Complexity: O(1) average
- * Space Complexity: O(N)
- */
 import java.util.LinkedList;
 public class CustomHashMap {
     static class Entry {

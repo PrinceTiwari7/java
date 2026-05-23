@@ -1,13 +1,3 @@
-/**
- * Problem ID: 183
- * Topic: GraphAlgorithms
- * Problem Name: DijkstraAlgorithm
- * Difficulty: Medium
- * Description: Finds shortest paths from source using a PriorityQueue.
- *
- * Time Complexity: O((V + E) log V)
- * Space Complexity: O(V)
- */
 import java.util.List;
 import java.util.ArrayList;
 import java.util.PriorityQueue;

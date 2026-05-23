@@ -1,13 +1,3 @@
-/**
- * Problem ID: 148
- * Topic: AlgorithmDesignParadigms
- * Problem Name: DPCoinChange
- * Difficulty: Medium
- * Description: Finds minimum coins to sum up to amount.
- *
- * Time Complexity: O(N * M)
- * Space Complexity: O(N)
- */
 import java.util.Arrays;
 public class DPCoinChange {
     public static int coinChange(int[] coins, int amount) {

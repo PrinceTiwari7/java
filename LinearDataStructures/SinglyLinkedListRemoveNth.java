@@ -1,13 +1,3 @@
-/**
- * Problem ID: 48
- * Topic: LinearDataStructures
- * Problem Name: SinglyLinkedListRemoveNth
- * Difficulty: Medium
- * Description: Removes the Nth node from the end of a singly linked list.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class SinglyLinkedListRemoveNth {
     static class Node {
         int val; Node next;

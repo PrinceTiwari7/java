@@ -1,13 +1,3 @@
-/**
- * Problem ID: 5
- * Topic: FoundationalConcepts
- * Problem Name: LinearithmicTimeComplexity
- * Difficulty: Easy
- * Description: Demonstrates O(N log N) time complexity with Merge Sort division.
- *
- * Time Complexity: O(N log N)
- * Space Complexity: O(N)
- */
 public class LinearithmicTimeComplexity {
     public static void mergeSort(int[] arr, int l, int r) {
         if (l < r) {

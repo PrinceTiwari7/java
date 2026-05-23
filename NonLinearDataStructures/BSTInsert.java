@@ -1,13 +1,3 @@
-/**
- * Problem ID: 74
- * Topic: NonLinearDataStructures
- * Problem Name: BSTInsert
- * Difficulty: Easy
- * Description: Inserts a value into a Binary Search Tree (BST) recursively.
- *
- * Time Complexity: O(H)
- * Space Complexity: O(H)
- */
 public class BSTInsert {
     static class TreeNode {
         int val; TreeNode left, right;

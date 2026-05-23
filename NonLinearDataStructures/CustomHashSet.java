@@ -1,13 +1,3 @@
-/**
- * Problem ID: 82
- * Topic: NonLinearDataStructures
- * Problem Name: CustomHashSet
- * Difficulty: Medium
- * Description: Implements a custom HashSet using bucket chaining.
- *
- * Time Complexity: O(1) average
- * Space Complexity: O(N)
- */
 import java.util.LinkedList;
 public class CustomHashSet {
     private LinkedList<Integer>[] buckets;

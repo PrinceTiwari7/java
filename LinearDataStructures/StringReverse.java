@@ -1,13 +1,3 @@
-/**
- * Problem ID: 34
- * Topic: LinearDataStructures
- * Problem Name: StringReverse
- * Difficulty: Easy
- * Description: Reverses a string using char array swapping.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class StringReverse {
     public static String reverse(String s) {
         char[] chars = s.toCharArray();

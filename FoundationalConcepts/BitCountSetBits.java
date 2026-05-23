@@ -1,13 +1,3 @@
-/**
- * Problem ID: 17
- * Topic: FoundationalConcepts
- * Problem Name: BitCountSetBits
- * Difficulty: Easy
- * Description: Counts the number of set bits (1s) in an integer.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(1)
- */
 public class BitCountSetBits {
     public static int countSetBits(int n) {
         int count = 0;

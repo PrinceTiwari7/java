@@ -1,13 +1,3 @@
-/**
- * Problem ID: 91
- * Topic: NonLinearDataStructures
- * Problem Name: NonLinearSubTree91
- * Difficulty: Easy
- * Description: Solving Binary Tree / Graph helper problem variation 3.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(H)
- */
 public class NonLinearSubTree91 {
     static class TreeNode {
         int val; TreeNode left, right;

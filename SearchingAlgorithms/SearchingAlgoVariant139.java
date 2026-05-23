@@ -1,13 +1,3 @@
-/**
- * Problem ID: 139
- * Topic: SearchingAlgorithms
- * Problem Name: SearchingAlgoVariant139
- * Difficulty: Medium
- * Description: Algorithmic variant search check #5.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(1)
- */
 public class SearchingAlgoVariant139 {
     public static int binarySearch(int[] arr, int target) {
         int l = 0, r = arr.length - 1;

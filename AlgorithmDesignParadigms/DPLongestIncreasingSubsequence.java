@@ -1,13 +1,3 @@
-/**
- * Problem ID: 149
- * Topic: AlgorithmDesignParadigms
- * Problem Name: DPLongestIncreasingSubsequence
- * Difficulty: Medium
- * Description: Finds the length of the Longest Increasing Subsequence.
- *
- * Time Complexity: O(N^2)
- * Space Complexity: O(N)
- */
 import java.util.Arrays;
 public class DPLongestIncreasingSubsequence {
     public static int lengthOfLIS(int[] nums) {

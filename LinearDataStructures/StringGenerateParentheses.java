@@ -1,13 +1,3 @@
-/**
- * Problem ID: 63
- * Topic: LinearDataStructures
- * Problem Name: StringGenerateParentheses
- * Difficulty: Medium
- * Description: Generates all combinations of well-formed parentheses.
- *
- * Time Complexity: O(4^N / sqrt(N))
- * Space Complexity: O(N)
- */
 import java.util.List;
 import java.util.ArrayList;
 public class StringGenerateParentheses {

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 28
- * Topic: LinearDataStructures
- * Problem Name: ArrayReverse
- * Difficulty: Easy
- * Description: Reverses an array in-place using the two-pointer approach.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class ArrayReverse {
     public static void reverse(int[] arr) {
         int i = 0, j = arr.length - 1;

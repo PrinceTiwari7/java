@@ -1,13 +1,3 @@
-/**
- * Problem ID: 27
- * Topic: LinearDataStructures
- * Problem Name: ArrayDelete
- * Difficulty: Easy
- * Description: Deletes an element from a specific index of an array.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class ArrayDelete {
     public static int[] delete(int[] arr, int index) {
         if (index < 0 || index >= arr.length) return arr;

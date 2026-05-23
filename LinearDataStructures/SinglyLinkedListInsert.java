@@ -1,13 +1,3 @@
-/**
- * Problem ID: 42
- * Topic: LinearDataStructures
- * Problem Name: SinglyLinkedListInsert
- * Difficulty: Easy
- * Description: Demonstrates insertions at head, tail, and specific positions.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class SinglyLinkedListInsert {
     static class Node {
         int val; Node next;

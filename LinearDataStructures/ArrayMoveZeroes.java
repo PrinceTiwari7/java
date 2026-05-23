@@ -1,13 +1,3 @@
-/**
- * Problem ID: 31
- * Topic: LinearDataStructures
- * Problem Name: ArrayMoveZeroes
- * Difficulty: Easy
- * Description: Moves all zeroes to the end of the array while maintaining order.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class ArrayMoveZeroes {
     public static void moveZeroes(int[] nums) {
         int pos = 0;

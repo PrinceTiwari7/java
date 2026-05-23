@@ -1,13 +1,3 @@
-/**
- * Problem ID: 44
- * Topic: LinearDataStructures
- * Problem Name: SinglyLinkedListReverse
- * Difficulty: Easy
- * Description: Reverses a Singly Linked List in-place.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class SinglyLinkedListReverse {
     static class Node {
         int val; Node next;

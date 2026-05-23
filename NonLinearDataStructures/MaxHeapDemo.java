@@ -1,13 +1,3 @@
-/**
- * Problem ID: 81
- * Topic: NonLinearDataStructures
- * Problem Name: MaxHeapDemo
- * Difficulty: Medium
- * Description: Implements insertion and extractMax in a Max-Heap structure.
- *
- * Time Complexity: O(log N)
- * Space Complexity: O(N)
- */
 import java.util.Arrays;
 public class MaxHeapDemo {
     private int[] heap = new int[10];

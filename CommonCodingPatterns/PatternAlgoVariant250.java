@@ -1,13 +1,3 @@
-/**
- * Problem ID: 250
- * Topic: CommonCodingPatterns
- * Problem Name: PatternAlgoVariant250
- * Difficulty: Easy
- * Description: Coding pattern verification check #30.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class PatternAlgoVariant250 {
     public static int[] twoSum(int[] arr, int target) {
         int l = 0, r = arr.length - 1;

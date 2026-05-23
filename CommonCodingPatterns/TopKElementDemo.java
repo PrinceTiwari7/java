@@ -1,13 +1,3 @@
-/**
- * Problem ID: 220
- * Topic: CommonCodingPatterns
- * Problem Name: TopKElementDemo
- * Difficulty: Medium
- * Description: Finds the Kth largest element in an array using a Min-Heap.
- *
- * Time Complexity: O(N log K)
- * Space Complexity: O(K)
- */
 import java.util.PriorityQueue;
 public class TopKElementDemo {
     public static int findKthLargest(int[] nums, int k) {

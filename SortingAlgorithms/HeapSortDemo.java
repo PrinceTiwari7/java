@@ -1,13 +1,3 @@
-/**
- * Problem ID: 111
- * Topic: SortingAlgorithms
- * Problem Name: HeapSortDemo
- * Difficulty: Medium
- * Description: Sorts an array using Max-Heap algorithm.
- *
- * Time Complexity: O(N log N)
- * Space Complexity: O(1)
- */
 public class HeapSortDemo {
     public static void sort(int[] arr) {
         int n = arr.length;

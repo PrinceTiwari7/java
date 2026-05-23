@@ -1,13 +1,3 @@
-/**
- * Problem ID: 119
- * Topic: SortingAlgorithms
- * Problem Name: SortingAlgoVariant119
- * Difficulty: Medium
- * Description: Algorithmic variant sorting check #6.
- *
- * Time Complexity: O(N^2)
- * Space Complexity: O(1)
- */
 public class SortingAlgoVariant119 {
     public static void sort(int[] arr) {
         // Insertion sorting variant

@@ -1,13 +1,3 @@
-/**
- * Problem ID: 86
- * Topic: NonLinearDataStructures
- * Problem Name: GraphAdjacencyMatrix
- * Difficulty: Easy
- * Description: Directed graph representation using a 2D boolean Adjacency Matrix.
- *
- * Time Complexity: O(1) to check connection
- * Space Complexity: O(V^2)
- */
 public class GraphAdjacencyMatrix {
     private boolean[][] adjMatrix;
     private int numVertices;

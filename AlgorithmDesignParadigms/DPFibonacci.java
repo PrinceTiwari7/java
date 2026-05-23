@@ -1,13 +1,3 @@
-/**
- * Problem ID: 147
- * Topic: AlgorithmDesignParadigms
- * Problem Name: DPFibonacci
- * Difficulty: Easy
- * Description: Calculates Fibonacci using bottom-up DP.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class DPFibonacci {
     public static int fib(int n) {
         if (n <= 1) return n;

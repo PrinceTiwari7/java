@@ -1,13 +1,3 @@
-/**
- * Problem ID: 32
- * Topic: LinearDataStructures
- * Problem Name: ArrayRemoveDuplicates
- * Difficulty: Easy
- * Description: Removes duplicates in-place from a sorted array.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class ArrayRemoveDuplicates {
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;

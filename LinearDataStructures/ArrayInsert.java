@@ -1,13 +1,3 @@
-/**
- * Problem ID: 26
- * Topic: LinearDataStructures
- * Problem Name: ArrayInsert
- * Difficulty: Easy
- * Description: Inserts an element into a specific index of a fixed-size array.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 public class ArrayInsert {
     public static int[] insert(int[] arr, int val, int index) {
         int[] newArr = new int[arr.length + 1];

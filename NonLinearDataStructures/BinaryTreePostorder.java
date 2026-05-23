@@ -1,13 +1,3 @@
-/**
- * Problem ID: 68
- * Topic: NonLinearDataStructures
- * Problem Name: BinaryTreePostorder
- * Difficulty: Easy
- * Description: Performs iterative postorder traversal on a binary tree.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- */
 import java.util.Stack;
 import java.util.List;
 import java.util.ArrayList;

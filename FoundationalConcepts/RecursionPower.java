@@ -1,13 +1,3 @@
-/**
- * Problem ID: 10
- * Topic: FoundationalConcepts
- * Problem Name: RecursionPower
- * Difficulty: Easy
- * Description: Computes base^exp recursively.
- *
- * Time Complexity: O(exp)
- * Space Complexity: O(exp)
- */
 public class RecursionPower {
     public static double power(double base, int exp) {
         if (exp == 0) return 1;

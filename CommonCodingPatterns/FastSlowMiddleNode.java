@@ -1,13 +1,3 @@
-/**
- * Problem ID: 218
- * Topic: CommonCodingPatterns
- * Problem Name: FastSlowMiddleNode
- * Difficulty: Easy
- * Description: Finds the middle node of a linked list using slow and fast pointers.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(1)
- */
 public class FastSlowMiddleNode {
     static class Node {
         int val; Node next;
